@@ -1,1 +1,1 @@
-# JWT-Project
+# MERN Project
