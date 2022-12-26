@@ -8,7 +8,7 @@ const connectDB = async () => {
     } catch (error){
         console.log(error)
         //1 represents fail
-        proccess.exit(1)
+        process.exit(1)
 
     }
 }

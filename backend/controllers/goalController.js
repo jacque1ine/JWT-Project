@@ -1,4 +1,4 @@
-//this fille is for functionality for endpoints 
+//this file is for functionality for endpoints 
 //when using mongoose functions to interact with the database we get back a promise, so we need to add async await 
 //express-async-handler allows you not to use try catches. this is a package
 //req - request
@@ -69,5 +69,4 @@ module.exports = {
     setGoals,
     updateGoal,
     deleteGoal,
-    
 }

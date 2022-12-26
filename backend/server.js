@@ -17,6 +17,7 @@ app.use(express.urlencoded({extended: false}))
 
 //when you hit api/goals it will look in goalRoutes files
 app.use('/api/goals', require('./routes/goalRoutes'))
+app.use('/api/users', require('./routes/userRoutes'))
 
 app.use(errorHandler) //will overwrite default express handler
 
